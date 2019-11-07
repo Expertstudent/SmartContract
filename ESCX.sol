@@ -1,7 +1,12 @@
+/**
+ *Submitted for verification at Etherscan.io on 2019-11-07
+*/
+
 /* 
+@New Smartcontract ESCX Token
 @Registered Company PT.Edukasi Digital Aset Indonesia
 @Project Expert Student Class :School learning about blockchain technology,trading,management risk,and investment.
-@Created march 2019 by ESCX Team
+@Created 8 November 2019 by ESCX Team
 @Official Website https://escx.co.id
  */
 pragma solidity ^0.4.18;
@@ -85,8 +90,8 @@ contract ESCX is ERC20 {
     
     uint256 public totalSupply = 200000000e8;
     uint256 public totalDistributed = 0;    
-    uint256 public constant MIN_PURCHASE = 1 ether / 100; // 0.05 Ether
-    uint256 public tokensPerEth = 22000e8;
+    uint256 public constant MIN_PURCHASE = 1 ether / 100;
+    uint256 public tokensPerEth = 25000e8;
 
     event Transfer(address indexed _from, address indexed _to, uint256 _value);
     event Approval(address indexed _owner, address indexed _spender, uint256 _value);
